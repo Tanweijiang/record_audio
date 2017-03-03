@@ -1,5 +1,5 @@
 #include "TestAudioScene.h"
-#include "GameAudioManage.h"
+#include "GameRecordAudioManage.h"
 #define	RECORD_BTN_TAG 1001
 #define	PLAYER_BTN_TAG 1002
 #define	DELETE_BTN_TAG 1003
