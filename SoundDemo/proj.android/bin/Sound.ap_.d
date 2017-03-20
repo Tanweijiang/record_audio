@@ -1,0 +1,37 @@
+/Users/qiuzhong/Monkey/Sound/proj.android/bin/Sound.ap_ \
+ : /Users/qiuzhong/Monkey/Sound/proj.android/res/drawable-hdpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/res/drawable-ldpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/res/drawable-mdpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/res/values/strings.xml \
+/Users/qiuzhong/Monkey/Sound/proj.android/bin/res/drawable-hdpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/bin/res/drawable-ldpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/bin/res/drawable-mdpi/icon.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/CloseNormal.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/CloseSelected.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/fonts \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/HelloWorld.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/res \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/fonts/arial.ttf \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/fonts/Marker Felt.ttf \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/adj.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/bar.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/btn.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/cancel.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/dialog_loading_bg.9.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/recordBtn.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/recorder.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v1.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v2.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v3.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v4.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v5.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v6.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v7.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v_anim1.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v_anim2.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/v_anim3.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/voice_to_short.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/yuyin_bg.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/assets/voice/yyDialog.png \
+/Users/qiuzhong/Monkey/Sound/proj.android/bin/AndroidManifest.xml \
