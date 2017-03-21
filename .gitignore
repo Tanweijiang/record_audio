@@ -1,0 +1,34 @@
+# Compiled Object files
+/proj.android/bin/*
+/bin/*
+/cocos2d/*
+/proj.android-studio/*
+/proj.linux/*
+/proj.win8.1-universal/*
+/proj.win10/*
+/proj.win32/*
+
+
+/proj.android/assets/*
+/proj.android/obj/*
+/proj.android/assets/*
+
+/proj.ios_mac/cocos2d/*
+
+/.svn/*
+
+
+
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+projectConfig/Tniuniu.apk
