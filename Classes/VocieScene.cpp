@@ -1,12 +1,12 @@
 #include "VocieScene.h"
-#include "VoiceSDK/VoiceMgr.h"
-#include "VoiceSDK/Base64.h"
+#include "voicesdk/VoiceMgr.h"
+#include "voicesdk/Base64.h"
 #include "time.h" 
 
-#define	RECORD_BTN_TAG       1001  // 开始录音 
-#define PPLAY_BTN_TAG        1002  // 播放录音
-#define WARN_WINDOW_BTN_TAG  1003  // 警告弹出框 确认按钮
-#define TESTEXIT_BTN_TAG     1004  // 警告弹出框 确认按钮
+#define	RECORD_BTN_TAG       1001  //
+#define PPLAY_BTN_TAG        1002  //
+#define WARN_WINDOW_BTN_TAG  1003  //
+#define TESTEXIT_BTN_TAG     1004  //
 
 Scene* VocieScene::createScene(){
 	auto scene = Scene::create();
@@ -35,7 +35,6 @@ void VocieScene::onEnter()
 	CCLOG("== enter VocieScene  onEnter function ==");
 	auto _vSize = Director::getInstance()->getVisibleSize();
 	
-	// 录音背景
 	_voice = Sprite::create("voice/yuyin_bg.png");
 	_voice->setPosition(_vSize.width / 2, _vSize.height / 2);
 	addChild(_voice, -1);
@@ -46,25 +45,25 @@ void VocieScene::onEnter()
 	addChild(_voice_failed,999);
 	_voice_failed->setVisible(false);
 
-	// 话筒icon
+
 	auto recordPic = Sprite::create("voice/recorder.png");  
 	recordPic->setPosition(80, 130);
 	_voice->addChild(recordPic);
-	// label 提示
+
 	auto label = Label::create();
 	label->setString("up  can cancel!!");
 	label->setSystemFontSize(24);
 	label->setPosition(ccp(140, 40));
 	_voice->addChild(label);
 
-	// 开始录音按钮
+
 	auto btnVoice = Button::create("voice/recordBtn.png");
 	btnVoice->addTouchEventListener(CC_CALLBACK_2(VocieScene::touchEvent, this));
 	btnVoice->setPosition(Vec2(_vSize.width / 2, 140));
 	btnVoice->setTag(RECORD_BTN_TAG);
 	addChild(btnVoice);
 
-	// 播放按钮
+
 	auto playBtn = Button::create("voice/adj.png");
 	playBtn->addClickEventListener(CC_CALLBACK_1(VocieScene::btnClickCallback, this));
 	playBtn->setPosition(Vec2(_vSize.width / 2+200, 140));
@@ -80,7 +79,7 @@ void VocieScene::onEnter()
     addChild(testExitBtn);
 	//testExitBtn->setVisible(false);
 
-	// 录音失败按钮
+
 	auto label2 = Label::create();
 	label2->setString("record time is too short");
 	label2->setSystemFontSize(24);
@@ -92,7 +91,7 @@ void VocieScene::onEnter()
 	warnOkBtn->setTag(WARN_WINDOW_BTN_TAG);
 	_voice_failed->addChild(warnOkBtn);
 
-	// 录音倒计时进度条 
+
 	_timeBar = Sprite::create("voice/bar.png");
 	_timeBar->setPosition(160, 4);
 	_timeBar->setScale(0.0f);
@@ -104,14 +103,14 @@ void VocieScene::onEnter()
 void VocieScene::onVoiceOK()
 {
 	if (_lastTouchTime != 0) {
-		VoiceMgr::getInstance()->release();	                                //  录音管理类释放资源
-		long time = dateNow() - _lastTouchTime;                             //  得到录音持续时间 
-		string msg = VoiceMgr::getInstance()->getVoiceData("record.amr");   //  得到录音数据
+		VoiceMgr::getInstance()->release();
+		long time = dateNow() - _lastTouchTime;
+		string msg = VoiceMgr::getInstance()->getVoiceData("record.amr");
 		testmsg = msg;
 		log(" == get msg content =====:%s", msg.c_str());
 		log(" ==get msg length =====:%d", msg.size());
-		// 网络传输  发送数据给服务器
-		// net.send("voice_msg", { msg:msg,time : time });  // 发送数据
+
+		// net.send("voice_msg", { msg:msg,time : time });
 	}
 	_voice->setVisible(false);
 }
@@ -169,7 +168,7 @@ void VocieScene::btnClickCallback(cocos2d::Ref* pSender)
 		log("== play voice btn callback ==");
 		VoiceMgr::getInstance()->play("record.amr");
 		break;
-    case TESTEXIT_BTN_TAG:  // 测试 从网络上得到的数据   这里是假数据   test play Voice   when  get data from network
+    case TESTEXIT_BTN_TAG:  //  test play Voice   when  get data from network
 		VoiceMgr::getInstance()->writeVoice("recordttt.amr",testmsg);
 
             break;
@@ -178,7 +177,7 @@ void VocieScene::btnClickCallback(cocos2d::Ref* pSender)
 	}
 }
 
-// 获取当前时间戳
+
 long VocieScene::dateNow()
 {
 	time_t rawtime;
@@ -186,12 +185,12 @@ long VocieScene::dateNow()
 }
 
 void VocieScene::update(float delta) {
-	// 动态显示音频
+
 	if (_voice->isVisible() == true && _voice_failed->isVisible() == false) {
 			for (int i =0 ;i<7;i++){
 			}
 		}
-	// 每帧检查，如果大于时间上线（15秒） 则自动录音成功，保存发送
+
 	if (_lastTouchTime) {
 		int time = dateNow() - _lastTouchTime;
 		if (time >= MAX_TIME) {

@@ -17,7 +17,6 @@ public:
 
 	void update(float delta);
 	
-	// Ò»ÇĞ¶¼ok ÀíÏëÇé¿öÏÂ  ¿ªÊ¼Â¼Òô
 	void onVoiceOK();
 
 	void btnClickCallback(cocos2d::Ref* pSender);
@@ -27,22 +26,15 @@ public:
 
     CREATE_FUNC(VocieScene);
 private:
-	long      _lastTouchTime;            // ¿ªÊ¼Â¼ÒôÊ±¼ä 
-	Sprite*  _voice;                    // ÓïÒôÄ£¿éÈİÆ÷
-	int 	 _volume;                   // ÒôÁ¿
-	CCLayerColor*   _voice_failed;      // Â¼ÒôÊ§°Üµ¯³ö¿ò
-	long      _lastCheckTime;           // ¼ì²éÂ¼ÒôÊ±¼ä
-	Sprite*  _timeBar;                  // Ê±¼äÌõ
-	int 	 MAX_TIME;                  // ×î´óÊ±¼ä
-
-	std::string testmsg;
-
+    long      _lastTouchTime;            // å¼€å§‹å½•éŸ³æ—¶é—´
+    Sprite*  _voice;                    // è¯­éŸ³æ¨¡å—å®¹å™¨
+    int 	 _volume;                   // éŸ³é‡
+    CCLayerColor*   _voice_failed;      // å½•éŸ³å¤±è´¥å¼¹å‡ºæ¡†
+    long      _lastCheckTime;           // æ£€æŸ¥å½•éŸ³æ—¶é—´
+    Sprite*  _timeBar;                  // æ—¶é—´æ¡
+    int 	 MAX_TIME;                  // æœ€å¤§æ—¶é—´
+    
+    std::string testmsg;
 };
 
 
-
-
-// will delete  todo
-//EventListenerCustom* _roomRespListener;     // ·¿¼äÏìÓ¦×¢²áÕìÌı
-//EventListenerCustom* _reConnectAgain;       // ÔÙ´ÎÖØÁ¬
-//EventListenerCustom* _registerRespListener; // ×¢²áÏìÓ¦ÕìÌı

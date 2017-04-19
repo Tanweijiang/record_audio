@@ -1,4 +1,5 @@
 #pragma once
+
 #include "cocos2d.h"
 
 USING_NS_CC;
@@ -11,55 +12,55 @@ class VoiceMgr : public Layer
 {
 public:
 	static VoiceMgr* getInstance();
-
-	// ±àÂë
-	Data encode(Data data);
-	// ½âÂë
-	Data decode(string data);
-
-	// _
-     // onPlayCallback:null,
-	string _voiceMediaPath;   // ÉùÒô´æ·ÅÂ·¾¶
-	
-	// funciton
-
-	void prepare();
-	// ×¼±¸
-	void prepare(string filename);
-
-	// ÊÍ·Å
-	void release();
-
-	// È¡Ïû
-	void cancel();
-
-	// Çå³ş»º´æ
-	void clearCache(string filename);
-
-	// ²¥·Å
-	void play(string filename);
-
-	// ÔİÍ£
-	void stop();
-
-	// »ñµÃÒôÁ¿
-	int getVoiceLevel(int maxLevel);
-
-	void writeVoice(string voiceData);
-	// Ğ´ÈëÉùÒôÊı¾İ  µ±´Ó·şÎñÆ÷ÊÕµ½ÉùÒôÍ¨ÖªµÄÊ±ºò   when get data from service then  call this function 
-	void writeVoice(string filename, string voiceData);
-
-	// »ñµÃÉùÒôÊı¾İ  // È»ºó¿ÉÒÔ·¢ËÍµ½·şÎñÆ÷         when need send data to service 
-	string getVoiceData(string filename);
-
-	string getVoiceData();
-
-	// ÉèÖÃ±¾µØ´æ´¢Â·¾¢
-	void setStorageDir(string dir);
-
-	void download();
+    // ç¼–ç 
+    Data encode(Data data);
+    // è§£ç 
+    Data decode(string data);
+    
+    // _
+    // onPlayCallback:null,
+    string _voiceMediaPath;   // å£°éŸ³å­˜æ”¾è·¯å¾„
+    
+    // funciton
+    
+    void prepare();
+    // å‡†å¤‡
+    void prepare(string filename);
+    
+    // é‡Šæ”¾
+    void release();
+    
+    // å–æ¶ˆ
+    void cancel();
+    
+    // æ¸…æ¥šç¼“å­˜
+    void clearCache(string filename);
+    
+    // æ’­æ”¾
+    void play(string filename);
+    
+    // æš‚åœ
+    void stop();
+    
+    // è·å¾—éŸ³é‡
+    int getVoiceLevel(int maxLevel);
+    
+    void writeVoice(string voiceData);
+    // å†™å…¥å£°éŸ³æ•°æ®  å½“ä»æœåŠ¡å™¨æ”¶åˆ°å£°éŸ³é€šçŸ¥çš„æ—¶å€™   when get data from service then  call this function
+    void writeVoice(string filename, string voiceData);
+    
+    // è·å¾—å£°éŸ³æ•°æ®  // ç„¶åå¯ä»¥å‘é€åˆ°æœåŠ¡å™¨         when need send data to service
+    string getVoiceData(string filename);
+    
+    string getVoiceData();
+    
+    // è®¾ç½®æœ¬åœ°å­˜å‚¨è·¯åŠ²
+    void setStorageDir(string dir);
+    
+    void download();
 
 private:
+    
 	VoiceMgr();
 	static VoiceMgr* _instance;
 };

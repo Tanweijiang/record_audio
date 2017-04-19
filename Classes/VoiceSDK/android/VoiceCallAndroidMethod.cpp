@@ -1,23 +1,23 @@
-#include "VoiceSDK/android/CallAndroidMethod.h"
+#include "voicesdk/android/VoiceCallAndroidMethod.h"
 #include "json/document.h"
 #include "json/stringbuffer.h"
 #include "json/writer.h"
 #define JAVA_SRC getJniPath()
 
-CallAndroidMethod* CallAndroidMethod::_instance = 0;
+VoiceCallAndroidMethod* VoiceCallAndroidMethod::_instance = 0;
 
-CallAndroidMethod::CallAndroidMethod(){
+VoiceCallAndroidMethod::VoiceCallAndroidMethod(){
 	_jniPath = "org/cocos2dx/cpp/voicesdk";
 }
 
-CallAndroidMethod* CallAndroidMethod::getInstance() {
+VoiceCallAndroidMethod* VoiceCallAndroidMethod::getInstance() {
 	if(_instance == 0){
-		_instance = new CallAndroidMethod();
+		_instance = new VoiceCallAndroidMethod();
 	}
 	return _instance;
 }
 
-const char*  CallAndroidMethod::getJniPath()
+const char*  VoiceCallAndroidMethod::getJniPath()
 {
 	return _jniPath.c_str();
 }
@@ -27,7 +27,7 @@ const char*  CallAndroidMethod::getJniPath()
 /*
 * china good voice  v2   start
 */
-void CallAndroidMethod::prepare(std::string filename)
+void VoiceCallAndroidMethod::prepare(std::string filename)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;
@@ -41,7 +41,7 @@ void CallAndroidMethod::prepare(std::string filename)
 #endif
 }
 
-void CallAndroidMethod::release()
+void VoiceCallAndroidMethod::release()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;
@@ -54,7 +54,7 @@ void CallAndroidMethod::release()
 #endif
 }
 
-void CallAndroidMethod::cancel()
+void VoiceCallAndroidMethod::cancel()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;
@@ -67,7 +67,7 @@ void CallAndroidMethod::cancel()
 #endif
 }
 
-void CallAndroidMethod::play(std::string filename)
+void VoiceCallAndroidMethod::play(std::string filename)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;
@@ -81,7 +81,7 @@ void CallAndroidMethod::play(std::string filename)
 #endif
 }
 
-void CallAndroidMethod::stop()
+void VoiceCallAndroidMethod::stop()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;
@@ -94,7 +94,7 @@ void CallAndroidMethod::stop()
 #endif
 }
 
-void CallAndroidMethod::getVoiceLevel()
+void VoiceCallAndroidMethod::getVoiceLevel()
 {
 //#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 //	JniMethodInfo methodInfo;
@@ -107,7 +107,7 @@ void CallAndroidMethod::getVoiceLevel()
 //#endif
 }
 
-void CallAndroidMethod::setStorageDir(std::string dir)
+void VoiceCallAndroidMethod::setStorageDir(std::string dir)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 	JniMethodInfo methodInfo;

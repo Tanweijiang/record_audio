@@ -4,16 +4,12 @@
 #include "cocos2d.h"
 using namespace cocos2d;
 
-class CallAndroidMethod{
+class VoiceCallAndroidMethod{
 public:
 	/*
 	* China good voice 
-	* 开始录音 按钮按下
-	* 录音结束 按钮弹起
-	* 删除录音
-	* 播放录音
 	*/
-	static CallAndroidMethod* getInstance();
+	static VoiceCallAndroidMethod* getInstance();
 	void prepare(std::string filename);
 	void release();
 	void cancel();
@@ -24,7 +20,7 @@ public:
 	const char* getJniPath();
 private:
 	std::string _jniPath;
-	CallAndroidMethod();
-	static CallAndroidMethod* _instance;
+	VoiceCallAndroidMethod();
+	static VoiceCallAndroidMethod* _instance;
 };
 #endif

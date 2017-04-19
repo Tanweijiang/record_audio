@@ -41,7 +41,7 @@ Android 接入：
    
  ios 接入：
  1  把 VoiceSDK 文件夹放入游戏项目中的 Class文件夹下面
- 2  导入 VoiceSDK\ios\lib中的两个静态库libopencore-amrnb.a  和  libopencore-amrwb
+ 2  导入 VoiceSDK\ios\armlib中的两个静态库libopencore-amrnb.a  和  libopencore-amrwb
  3  voiceMgr 的使用和android 一模一样。
   也就是使用者代码保持一致
    

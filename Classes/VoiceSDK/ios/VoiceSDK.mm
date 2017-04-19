@@ -6,7 +6,7 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "VoiceSDK.h"
+#import "voicesdk/ios/VoiceSDK.h"
 //#import "interf_dec.h"
 //#import "dec_if.h"
 //#import "interf_enc.h"

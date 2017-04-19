@@ -1,18 +1,17 @@
 /*
-  祭奠我逝去的  恒光 
   tanwejiang 
 */
-#include "VoiceMgr.h"
+
+#include "voicesdk/VoiceMgr.h"
 #include "audio/include/AudioEngine.h"
-#include "Base64.h"
+#include "voicesdk/Base64.h"
 using namespace experimental;
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID )
-#include "VoiceSDK/android/CallAndroidMethod.h"
+#include "voicesdk/android/CallAndroidMethod.h"
 #endif
 #if (CC_TARGET_PLATFORM==CC_PLATFORM_IOS)
-#include "VoiceSDK/CallVoiceApi.h"
-#include "VoiceSDK/VoiceApi.h"
+#include "voicesdk/ios/CallVoiceApi.h"
 #endif
 
 VoiceMgr* VoiceMgr::_instance = NULL;
@@ -25,7 +24,7 @@ VoiceMgr* VoiceMgr::getInstance() {
 }
 
 VoiceMgr::VoiceMgr() {
-    _voiceMediaPath = FileUtils::getInstance()->getWritablePath(); // + "voicemsgs/";      // 每次初始化路劲
+    _voiceMediaPath = FileUtils::getInstance()->getWritablePath(); 
     setStorageDir(_voiceMediaPath);
 }
 
@@ -81,12 +80,12 @@ void VoiceMgr::cancel()
 }
 
 void VoiceMgr::writeVoice(string voiceData){
-	writeVoice(writeVoice,voiceData);
+	writeVoice(DOWNLOAD_AUDIO_PATH,voiceData);
 }
 
 void VoiceMgr::writeVoice(string filename, string voiceData)
 {
-	log("testmsg === %s", voiceData.c_str());  // 服务器接收到的数据
+	log("testmsg === %s", voiceData.c_str());
 	string recodByte = base64_decode(voiceData.c_str());
 	log("recodByte === %s", recodByte.c_str());
 	string path = VoiceMgr::getInstance()->_voiceMediaPath + filename;
@@ -180,11 +179,11 @@ string VoiceMgr::getVoiceData(string filename)
 }
 
 
-// 设置本地存储路劲
+
 void VoiceMgr::setStorageDir(string dir)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID )
-	// jni 调用 setStorageDir 方法
+	
 	CallAndroidMethod::getInstance()->setStorageDir(dir);
 #endif
 #if (CC_TARGET_PLATFORM==CC_PLATFORM_IOS)
