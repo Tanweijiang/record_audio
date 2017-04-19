@@ -49,6 +49,8 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		D2D3F43D1EA752E2003F9D5D /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D3F43B1EA752E2003F9D5D /* libopencore-amrnb.a */; };
+		D2D3F43E1EA752E2003F9D5D /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D3F43C1EA752E2003F9D5D /* libopencore-amrwb.a */; };
 		D2FD5BA31EA744770016FCCC /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5BA01EA744770016FCCC /* fonts */; };
 		D2FD5BA41EA744770016FCCC /* res in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5BA11EA744770016FCCC /* res */; };
 		D2FD5BA51EA744770016FCCC /* voice in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5BA21EA744770016FCCC /* voice */; };
@@ -61,13 +63,6 @@
 		D2FD5D351EA74CB60016FCCC /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FD5D141EA74CB60016FCCC /* libopencore-amrnb.a */; };
 		D2FD5D361EA74CB60016FCCC /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FD5D151EA74CB60016FCCC /* libopencore-amrwb.a */; };
 		D2FD5D371EA74CB60016FCCC /* CallVoiceApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D171EA74CB60016FCCC /* CallVoiceApi.mm */; };
-		D2FD5D381EA74CB60016FCCC /* ChatRecorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D221EA74CB60016FCCC /* ChatRecorderView.m */; };
-		D2FD5D391EA74CB60016FCCC /* ChatRecorderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5D231EA74CB60016FCCC /* ChatRecorderView.xib */; };
-		D2FD5D3A1EA74CB60016FCCC /* ChatVoiceRecorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D251EA74CB60016FCCC /* ChatVoiceRecorderVC.m */; };
-		D2FD5D3B1EA74CB60016FCCC /* ChatVoiceRecorderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5D261EA74CB60016FCCC /* ChatVoiceRecorderVC.xib */; };
-		D2FD5D3C1EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5D271EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata */; };
-		D2FD5D3D1EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata.zip in Resources */ = {isa = PBXBuildFile; fileRef = D2FD5D281EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata.zip */; };
-		D2FD5D3E1EA74CB60016FCCC /* VoiceRecorderBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D2A1EA74CB60016FCCC /* VoiceRecorderBaseVC.m */; };
 		D2FD5D3F1EA74CB60016FCCC /* VoiceSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D2C1EA74CB60016FCCC /* VoiceSDK.mm */; };
 		D2FD5D401EA74CB60016FCCC /* VoiceMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2FD5D2D1EA74CB60016FCCC /* VoiceMgr.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -155,6 +150,8 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2D3F43B1EA752E2003F9D5D /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "../Classes/voicesdk/ios/armlib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		D2D3F43C1EA752E2003F9D5D /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "../Classes/voicesdk/ios/armlib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		D2FD5BA01EA744770016FCCC /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		D2FD5BA11EA744770016FCCC /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		D2FD5BA21EA744770016FCCC /* voice */ = {isa = PBXFileReference; lastKnownFileType = folder; path = voice; sourceTree = "<group>"; };
@@ -178,16 +175,6 @@
 		D2FD5D1A1EA74CB60016FCCC /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
 		D2FD5D1C1EA74CB60016FCCC /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		D2FD5D1D1EA74CB60016FCCC /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		D2FD5D211EA74CB60016FCCC /* ChatRecorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRecorderView.h; sourceTree = "<group>"; };
-		D2FD5D221EA74CB60016FCCC /* ChatRecorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRecorderView.m; sourceTree = "<group>"; };
-		D2FD5D231EA74CB60016FCCC /* ChatRecorderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRecorderView.xib; sourceTree = "<group>"; };
-		D2FD5D241EA74CB60016FCCC /* ChatVoiceRecorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatVoiceRecorderVC.h; sourceTree = "<group>"; };
-		D2FD5D251EA74CB60016FCCC /* ChatVoiceRecorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatVoiceRecorderVC.m; sourceTree = "<group>"; };
-		D2FD5D261EA74CB60016FCCC /* ChatVoiceRecorderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatVoiceRecorderVC.xib; sourceTree = "<group>"; };
-		D2FD5D271EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = com.poxiao.dqmahjong.xcappdata; sourceTree = "<group>"; };
-		D2FD5D281EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = com.poxiao.dqmahjong.xcappdata.zip; sourceTree = "<group>"; };
-		D2FD5D291EA74CB60016FCCC /* VoiceRecorderBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecorderBaseVC.h; sourceTree = "<group>"; };
-		D2FD5D2A1EA74CB60016FCCC /* VoiceRecorderBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderBaseVC.m; sourceTree = "<group>"; };
 		D2FD5D2B1EA74CB60016FCCC /* VoiceSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceSDK.h; sourceTree = "<group>"; };
 		D2FD5D2C1EA74CB60016FCCC /* VoiceSDK.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceSDK.mm; sourceTree = "<group>"; };
 		D2FD5D2D1EA74CB60016FCCC /* VoiceMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoiceMgr.cpp; sourceTree = "<group>"; };
@@ -205,6 +192,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D3F43D1EA752E2003F9D5D /* libopencore-amrnb.a in Frameworks */,
+				D2D3F43E1EA752E2003F9D5D /* libopencore-amrwb.a in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				D2FD5D361EA74CB60016FCCC /* libopencore-amrwb.a in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
@@ -295,6 +284,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2D3F43B1EA752E2003F9D5D /* libopencore-amrnb.a */,
+				D2D3F43C1EA752E2003F9D5D /* libopencore-amrwb.a */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
 				8262943D1AAF051F00CB7CF7 /* Security.framework */,
@@ -420,7 +411,6 @@
 				D2FD5D171EA74CB60016FCCC /* CallVoiceApi.mm */,
 				D2FD5D181EA74CB60016FCCC /* opencore-amrnb */,
 				D2FD5D1B1EA74CB60016FCCC /* opencore-amrwb */,
-				D2FD5D1E1EA74CB60016FCCC /* VoiceRecorderVC */,
 				D2FD5D2B1EA74CB60016FCCC /* VoiceSDK.h */,
 				D2FD5D2C1EA74CB60016FCCC /* VoiceSDK.mm */,
 			);
@@ -463,39 +453,6 @@
 				D2FD5D1D1EA74CB60016FCCC /* if_rom.h */,
 			);
 			path = "opencore-amrwb";
-			sourceTree = "<group>";
-		};
-		D2FD5D1E1EA74CB60016FCCC /* VoiceRecorderVC */ = {
-			isa = PBXGroup;
-			children = (
-				D2FD5D1F1EA74CB60016FCCC /* ChatVoiceRecorderVC */,
-				D2FD5D271EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata */,
-				D2FD5D281EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata.zip */,
-				D2FD5D291EA74CB60016FCCC /* VoiceRecorderBaseVC.h */,
-				D2FD5D2A1EA74CB60016FCCC /* VoiceRecorderBaseVC.m */,
-			);
-			path = VoiceRecorderVC;
-			sourceTree = "<group>";
-		};
-		D2FD5D1F1EA74CB60016FCCC /* ChatVoiceRecorderVC */ = {
-			isa = PBXGroup;
-			children = (
-				D2FD5D201EA74CB60016FCCC /* ChatRecorderView */,
-				D2FD5D241EA74CB60016FCCC /* ChatVoiceRecorderVC.h */,
-				D2FD5D251EA74CB60016FCCC /* ChatVoiceRecorderVC.m */,
-				D2FD5D261EA74CB60016FCCC /* ChatVoiceRecorderVC.xib */,
-			);
-			path = ChatVoiceRecorderVC;
-			sourceTree = "<group>";
-		};
-		D2FD5D201EA74CB60016FCCC /* ChatRecorderView */ = {
-			isa = PBXGroup;
-			children = (
-				D2FD5D211EA74CB60016FCCC /* ChatRecorderView.h */,
-				D2FD5D221EA74CB60016FCCC /* ChatRecorderView.m */,
-				D2FD5D231EA74CB60016FCCC /* ChatRecorderView.xib */,
-			);
-			path = ChatRecorderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,7 +555,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FD5D3D1EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata.zip in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -607,14 +563,11 @@
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
-				D2FD5D391EA74CB60016FCCC /* ChatRecorderView.xib in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				D2FD5BA51EA744770016FCCC /* voice in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
-				D2FD5D3C1EA74CB60016FCCC /* com.poxiao.dqmahjong.xcappdata in Resources */,
-				D2FD5D3B1EA74CB60016FCCC /* ChatVoiceRecorderVC.xib in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				D2FD5BA41EA744770016FCCC /* res in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
@@ -648,12 +601,9 @@
 				D2FD5D301EA74CB60016FCCC /* VocieScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				D2FD5D401EA74CB60016FCCC /* VoiceMgr.cpp in Sources */,
-				D2FD5D3E1EA74CB60016FCCC /* VoiceRecorderBaseVC.m in Sources */,
-				D2FD5D381EA74CB60016FCCC /* ChatRecorderView.m in Sources */,
 				D2FD5D331EA74CB60016FCCC /* amrFileCodec.mm in Sources */,
 				D2FD5D3F1EA74CB60016FCCC /* VoiceSDK.mm in Sources */,
 				D2FD5D321EA74CB60016FCCC /* Base64.cpp in Sources */,
-				D2FD5D3A1EA74CB60016FCCC /* ChatVoiceRecorderVC.m in Sources */,
 				D2FD5D341EA74CB60016FCCC /* wav.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);

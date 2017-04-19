@@ -1,5 +1,5 @@
 
-#include "CallVoiceApi.h"
+#include "voicesdk/ios/CallVoiceApi.h"
 #include "VoiceSDK.h"
 
 CallVoiceApi* CallVoiceApi::_instance = NULL;

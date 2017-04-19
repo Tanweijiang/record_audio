@@ -10,7 +10,7 @@
 //#import "interf_dec.h"
 //#import "dec_if.h"
 //#import "interf_enc.h"
-#import "amrFileCodec.h"
+#import "voicesdk/ios/amrwapper/amrFileCodec.h"
 
 static NSString* storageDir;
 static AVAudioRecorder  *recorder;
