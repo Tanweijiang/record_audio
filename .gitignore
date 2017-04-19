@@ -30,7 +30,6 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
 projectConfig/Tniuniu.apk
 
 .DS_Store
