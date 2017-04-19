@@ -1,0 +1,240 @@
+============================================================
+Time  2017/03/16 11:29:47 953 
+============================================================
+[2017/03/16 11:29:47 956] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 11:29:47 957] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700daa90) 
+[2017/03/16 11:29:47 957] lgi        297  LGI_MSG_INIT  
+[2017/03/16 11:29:47 957] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 11:29:47 957] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FA98C3BB-219F-4143-8A96-1BB3937BFE72/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/5A9E3086-5427-4B25-9020-85CD584D94EB/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FA98C3BB-219F-4143-8A96-1BB3937BFE72/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 11:29:47 958] lgi        344  auth_time_str=  2017/03/16 11:29:47  
+[2017/03/16 11:29:47 958] lgi        350  auth_appid=  57555017  
+[2017/03/16 11:29:47 958] lgi        360  token:  nil  
+[2017/03/16 11:29:47 958] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 11:29:47 958] lgi        488  ns_enable=  0  
+[2017/03/16 11:29:47 958] lgi        500  prot_ver=1  
+[2017/03/16 11:29:47 958] lgi        511  prot_type=tcp  
+[2017/03/16 11:29:47 965] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 11:32:46 069 
+============================================================
+[2017/03/16 11:32:46 070] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 11:32:46 071] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700d2210) 
+[2017/03/16 11:32:46 071] lgi        297  LGI_MSG_INIT  
+[2017/03/16 11:32:46 071] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 11:32:46 071] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FA98C3BB-219F-4143-8A96-1BB3937BFE72/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/5A9E3086-5427-4B25-9020-85CD584D94EB/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FA98C3BB-219F-4143-8A96-1BB3937BFE72/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 11:32:46 071] lgi        344  auth_time_str=  2017/03/16 11:32:46  
+[2017/03/16 11:32:46 071] lgi        350  auth_appid=  57555017  
+[2017/03/16 11:32:46 071] lgi        360  token:  nil  
+[2017/03/16 11:32:46 071] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 11:32:46 071] lgi        488  ns_enable=  0  
+[2017/03/16 11:32:46 071] lgi        500  prot_ver=1  
+[2017/03/16 11:32:46 071] lgi        511  prot_type=tcp  
+[2017/03/16 11:32:46 072] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 11:52:53 078 
+============================================================
+[2017/03/16 11:52:53 080] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 11:52:53 081] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700dc150) 
+[2017/03/16 11:52:53 081] lgi        297  LGI_MSG_INIT  
+[2017/03/16 11:52:53 081] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 11:52:53 081] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/29B62CC9-3070-4974-B814-D4E2451F57C1/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/8A7010C0-B767-4EE6-8234-A1BC6BEB28E5/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/29B62CC9-3070-4974-B814-D4E2451F57C1/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 11:52:53 081] lgi        344  auth_time_str=  2017/03/16 11:52:53  
+[2017/03/16 11:52:53 081] lgi        350  auth_appid=  57555017  
+[2017/03/16 11:52:53 082] lgi        360  token:  nil  
+[2017/03/16 11:52:53 082] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 11:52:53 082] lgi        488  ns_enable=  0  
+[2017/03/16 11:52:53 082] lgi        500  prot_ver=1  
+[2017/03/16 11:52:53 082] lgi        511  prot_type=tcp  
+[2017/03/16 11:52:53 085] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 12:35:24 970 
+============================================================
+[2017/03/16 12:35:24 972] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 12:35:24 974] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700dfb10) 
+[2017/03/16 12:35:24 974] lgi        297  LGI_MSG_INIT  
+[2017/03/16 12:35:24 974] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 12:35:24 974] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/3926147C-5700-402E-9F42-9C1B7A2ECCA5/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/0E82FD62-B7D0-4416-8A51-EA12CA1BBF1C/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/3926147C-5700-402E-9F42-9C1B7A2ECCA5/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 12:35:24 974] lgi        344  auth_time_str=  2017/03/16 12:35:24  
+[2017/03/16 12:35:24 974] lgi        350  auth_appid=  57555017  
+[2017/03/16 12:35:24 974] lgi        360  token:  nil  
+[2017/03/16 12:35:24 974] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 12:35:24 974] lgi        488  ns_enable=  0  
+[2017/03/16 12:35:24 974] lgi        500  prot_ver=1  
+[2017/03/16 12:35:24 974] lgi        511  prot_type=tcp  
+[2017/03/16 12:35:24 975] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 13:14:49 155 
+============================================================
+[2017/03/16 13:14:49 157] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 13:14:49 158] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700dcc40) 
+[2017/03/16 13:14:49 159] lgi        297  LGI_MSG_INIT  
+[2017/03/16 13:14:49 159] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 13:14:49 159] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/F9B1C0DF-9ED4-40C6-9D74-25A1D60B24C1/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/025EAE79-D1C8-403F-B88A-EDC4E90C2988/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/F9B1C0DF-9ED4-40C6-9D74-25A1D60B24C1/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 13:14:49 159] lgi        344  auth_time_str=  2017/03/16 13:14:49  
+[2017/03/16 13:14:49 159] lgi        350  auth_appid=  57555017  
+[2017/03/16 13:14:49 159] lgi        360  token:  nil  
+[2017/03/16 13:14:49 159] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 13:14:49 160] lgi        488  ns_enable=  0  
+[2017/03/16 13:14:49 160] lgi        500  prot_ver=1  
+[2017/03/16 13:14:49 160] lgi        511  prot_type=tcp  
+[2017/03/16 13:14:49 161] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 13:45:45 633 
+============================================================
+[2017/03/16 13:45:45 636] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 13:45:45 637] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700d3860) 
+[2017/03/16 13:45:45 637] lgi        297  LGI_MSG_INIT  
+[2017/03/16 13:45:45 637] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 13:45:45 637] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/9D4740D2-09F8-429F-B04F-89A0F4EA54C4/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/000A8FB6-552F-45AE-993B-90CD55C7D460/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/9D4740D2-09F8-429F-B04F-89A0F4EA54C4/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 13:45:45 638] lgi        344  auth_time_str=  2017/03/16 13:45:45  
+[2017/03/16 13:45:45 638] lgi        350  auth_appid=  57555017  
+[2017/03/16 13:45:45 638] lgi        360  token:  nil  
+[2017/03/16 13:45:45 638] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 13:45:45 638] lgi        488  ns_enable=  0  
+[2017/03/16 13:45:45 638] lgi        500  prot_ver=1  
+[2017/03/16 13:45:45 638] lgi        511  prot_type=tcp  
+[2017/03/16 13:45:45 638] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 14:13:13 826 
+============================================================
+[2017/03/16 14:13:13 828] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 14:13:13 830] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(740dd8f0) 
+[2017/03/16 14:13:13 830] lgi        297  LGI_MSG_INIT  
+[2017/03/16 14:13:13 830] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 14:13:13 830] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/98150644-45D8-4495-BE98-33D6C61BC0A4/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/96A07C3D-A930-49A9-A39D-0C32724AAE23/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/98150644-45D8-4495-BE98-33D6C61BC0A4/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 14:13:13 830] lgi        344  auth_time_str=  2017/03/16 14:13:13  
+[2017/03/16 14:13:13 830] lgi        350  auth_appid=  57555017  
+[2017/03/16 14:13:13 830] lgi        360  token:  nil  
+[2017/03/16 14:13:13 830] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 14:13:13 831] lgi        488  ns_enable=  0  
+[2017/03/16 14:13:13 831] lgi        500  prot_ver=1  
+[2017/03/16 14:13:13 831] lgi        511  prot_type=tcp  
+[2017/03/16 14:13:13 832] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 14:45:06 830 
+============================================================
+[2017/03/16 14:45:06 832] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 14:45:06 833] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(702c7700) 
+[2017/03/16 14:45:06 834] lgi        297  LGI_MSG_INIT  
+[2017/03/16 14:45:06 834] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 14:45:06 834] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/5D5A9C67-354F-4670-86AC-800D46AACFA1/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/3585F5FC-5D03-47F5-9C3B-5562D57529FC/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/5D5A9C67-354F-4670-86AC-800D46AACFA1/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 14:45:06 834] lgi        344  auth_time_str=  2017/03/16 14:45:06  
+[2017/03/16 14:45:06 834] lgi        350  auth_appid=  57555017  
+[2017/03/16 14:45:06 834] lgi        360  token:  nil  
+[2017/03/16 14:45:06 834] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 14:45:06 834] lgi        488  ns_enable=  0  
+[2017/03/16 14:45:06 834] lgi        500  prot_ver=1  
+[2017/03/16 14:45:06 835] lgi        511  prot_type=tcp  
+[2017/03/16 14:45:06 835] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 18:21:06 196 
+============================================================
+[2017/03/16 18:21:06 198] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 18:21:06 201] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700d1330) 
+[2017/03/16 18:21:06 201] lgi        297  LGI_MSG_INIT  
+[2017/03/16 18:21:06 201] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 18:21:06 201] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/F0F74010-BE4F-4878-873E-BF69A549EC0D/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/08A4E6E2-555E-4DBC-8749-A04E663CE20C/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/F0F74010-BE4F-4878-873E-BF69A549EC0D/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 18:21:06 201] lgi        344  auth_time_str=  2017/03/16 18:21:06  
+[2017/03/16 18:21:06 201] lgi        350  auth_appid=  57555017  
+[2017/03/16 18:21:06 201] lgi        360  token:  nil  
+[2017/03/16 18:21:06 201] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 18:21:06 202] lgi        488  ns_enable=  0  
+[2017/03/16 18:21:06 202] lgi        500  prot_ver=1  
+[2017/03/16 18:21:06 202] lgi        511  prot_type=tcp  
+[2017/03/16 18:21:06 202] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/16 18:23:13 584 
+============================================================
+[2017/03/16 18:23:13 586] lgi        623  SYS_MSG_LOAD  
+[2017/03/16 18:23:13 587] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(740d3ef0) 
+[2017/03/16 18:23:13 587] lgi        297  LGI_MSG_INIT  
+[2017/03/16 18:23:13 587] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/16 18:23:13 588] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/E7A50BB1-AF8B-4875-985B-A7FB482C24A0/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/DED96D7E-6B6F-46CE-9125-3959B3C42798/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/E7A50BB1-AF8B-4875-985B-A7FB482C24A0/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/16 18:23:13 588] lgi        344  auth_time_str=  2017/03/16 18:23:13  
+[2017/03/16 18:23:13 588] lgi        350  auth_appid=  57555017  
+[2017/03/16 18:23:13 588] lgi        360  token:  nil  
+[2017/03/16 18:23:13 588] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/16 18:23:13 588] lgi        488  ns_enable=  0  
+[2017/03/16 18:23:13 588] lgi        500  prot_ver=1  
+[2017/03/16 18:23:13 588] lgi        511  prot_type=tcp  
+[2017/03/16 18:23:13 589] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/17 11:19:41 632 
+============================================================
+[2017/03/17 11:19:41 634] lgi        623  SYS_MSG_LOAD  
+[2017/03/17 11:19:41 635] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(740cc710) 
+[2017/03/17 11:19:41 635] lgi        297  LGI_MSG_INIT  
+[2017/03/17 11:19:41 635] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/17 11:19:41 636] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/D0556265-0E36-4714-B90F-2134AEE66B8A/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/17 11:19:41 636] lgi        344  auth_time_str=  2017/03/17 11:19:41  
+[2017/03/17 11:19:41 636] lgi        350  auth_appid=  57555017  
+[2017/03/17 11:19:41 636] lgi        360  token:  nil  
+[2017/03/17 11:19:41 636] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/17 11:19:41 636] lgi        488  ns_enable=  0  
+[2017/03/17 11:19:41 636] lgi        500  prot_ver=1  
+[2017/03/17 11:19:41 636] lgi        511  prot_type=tcp  
+[2017/03/17 11:19:41 638] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/17 11:27:58 585 
+============================================================
+[2017/03/17 11:27:58 585] lgi        623  SYS_MSG_LOAD  
+[2017/03/17 11:27:58 587] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700cd190) 
+[2017/03/17 11:27:58 587] lgi        297  LGI_MSG_INIT  
+[2017/03/17 11:27:58 587] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/17 11:27:58 587] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/D0556265-0E36-4714-B90F-2134AEE66B8A/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/17 11:27:58 587] lgi        344  auth_time_str=  2017/03/17 11:27:58  
+[2017/03/17 11:27:58 587] lgi        350  auth_appid=  57555017  
+[2017/03/17 11:27:58 587] lgi        360  token:  nil  
+[2017/03/17 11:27:58 587] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/17 11:27:58 587] lgi        488  ns_enable=  0  
+[2017/03/17 11:27:58 587] lgi        500  prot_ver=1  
+[2017/03/17 11:27:58 587] lgi        511  prot_type=tcp  
+[2017/03/17 11:27:58 588] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/17 11:41:08 129 
+============================================================
+[2017/03/17 11:41:08 130] lgi        623  SYS_MSG_LOAD  
+[2017/03/17 11:41:08 131] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(700de680) 
+[2017/03/17 11:41:08 131] lgi        297  LGI_MSG_INIT  
+[2017/03/17 11:41:08 132] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/17 11:41:08 132] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/D0556265-0E36-4714-B90F-2134AEE66B8A/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/17 11:41:08 132] lgi        344  auth_time_str=  2017/03/17 11:41:08  
+[2017/03/17 11:41:08 132] lgi        350  auth_appid=  57555017  
+[2017/03/17 11:41:08 132] lgi        360  token:  nil  
+[2017/03/17 11:41:08 132] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/17 11:41:08 133] lgi        488  ns_enable=  0  
+[2017/03/17 11:41:08 133] lgi        500  prot_ver=1  
+[2017/03/17 11:41:08 133] lgi        511  prot_type=tcp  
+[2017/03/17 11:41:08 134] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/17 11:50:32 915 
+============================================================
+[2017/03/17 11:50:32 915] lgi        623  SYS_MSG_LOAD  
+[2017/03/17 11:50:32 917] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(740dc9a0) 
+[2017/03/17 11:50:32 917] lgi        297  LGI_MSG_INIT  
+[2017/03/17 11:50:32 917] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/17 11:50:32 917] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/D0556265-0E36-4714-B90F-2134AEE66B8A/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/FAD422D8-0DFB-4230-816F-6F430E8C4829/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/17 11:50:32 917] lgi        344  auth_time_str=  2017/03/17 11:50:32  
+[2017/03/17 11:50:32 917] lgi        350  auth_appid=  57555017  
+[2017/03/17 11:50:32 917] lgi        360  token:  nil  
+[2017/03/17 11:50:32 917] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/17 11:50:32 917] lgi        488  ns_enable=  0  
+[2017/03/17 11:50:32 918] lgi        500  prot_ver=1  
+[2017/03/17 11:50:32 918] lgi        511  prot_type=tcp  
+[2017/03/17 11:50:32 918] lgi        632  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2017/03/17 12:00:31 098 
+============================================================
+[2017/03/17 12:00:31 101] lgi        623  SYS_MSG_LOAD  
+[2017/03/17 12:00:31 125] lgi        645  SYS_MSG_REGCB  msp_status_cb  func(702c43d0) 
+[2017/03/17 12:00:31 126] lgi        297  LGI_MSG_INIT  
+[2017/03/17 12:00:31 126] lgi        306  lgi  lgi_5770d0e274639e43db21ea1c6a2bec5626958235  3435973836  1445997697  
+[2017/03/17 12:00:31 127] lgi        325  lgi params:  timeout=20000,appid=57555017,msc.ver=1.0.1115.1133,openudid=5770d0e274639e43db21ea1c6a2bec5626958235,work_dir=/var/mobile/Containers/Data/Application/8E653619-C72C-41C8-AD7A-937449EF1220/Library/Caches,carrier=,os.system=iOS,os.release=10.2.1,os.version=10.2.1,os.model=iPad5.1,os.resolution=1536*2048,os.manufact=apple,os.jailbreak=0,app.name=大庆麻将,app.path=/var/containers/Bundle/Application/63A92FBF-08F6-4B04-8BF3-EFC310A53564/Mahjong-mobile.app,app.pkg=Mahjong-mobile.app,app.bid=com.poxiao.dqmahjong,net_type=wifi,appid=57555017,log_level=7,log=/var/mobile/Containers/Data/Application/8E653619-C72C-41C8-AD7A-937449EF1220/Library/Caches/msc.log,log_output=1,log_filter=-1  
+[2017/03/17 12:00:31 128] lgi        344  auth_time_str=  2017/03/17 12:00:31  
+[2017/03/17 12:00:31 128] lgi        350  auth_appid=  57555017  
+[2017/03/17 12:00:31 129] lgi        360  token:  nil  
+[2017/03/17 12:00:31 129] lgi        445  msc cver : 5.0.19.1115  
+[2017/03/17 12:00:31 129] lgi        488  ns_enable=  0  
+[2017/03/17 12:00:31 129] lgi        500  prot_ver=1  
+[2017/03/17 12:00:31 130] lgi        511  prot_type=tcp  
+[2017/03/17 12:00:31 136] lgi        632  SYS_MSG_UNLOAD  go bg!  
