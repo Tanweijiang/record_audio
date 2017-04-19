@@ -41,6 +41,11 @@ Data VoiceMgr::decode(string data)
 	return t;
 }
 
+void VoiceMgr::prepare()
+{
+	prepare(RECORD_AUDIO_PATH);
+}
+
 void VoiceMgr::prepare(string filename)
 {
 	AudioEngine::pauseAll();
@@ -73,6 +78,10 @@ void VoiceMgr::cancel()
 #if (CC_TARGET_PLATFORM==CC_PLATFORM_IOS)
      CallVoiceApi::getInstance()->cancelRecord();
 #endif
+}
+
+void VoiceMgr::writeVoice(string voiceData){
+	writeVoice(writeVoice,voiceData);
 }
 
 void VoiceMgr::writeVoice(string filename, string voiceData)
@@ -131,6 +140,10 @@ int VoiceMgr::getVoiceLevel(int maxLevel)
 #endif
 #if (CC_TARGET_PLATFORM==CC_PLATFORM_IOS)
 #endif
+}
+
+string VoiceMgr::getVoiceData(){
+	getVoiceData(RECORD_AUDIO_PATH);
 }
 
 string VoiceMgr::getVoiceData(string filename)
